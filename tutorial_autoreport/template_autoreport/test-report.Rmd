@@ -1,7 +1,7 @@
 ---
-title: "Test"
+title: "Test Report"
 author: "cz"
-date: "4/16/2021"
+date: "5/10/2022"
 output: 
   word_document:
     reference_docx: word-styles-ref-01.docx
@@ -11,12 +11,11 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-Report starts here
+Report starts here. You can write something
 
-## some title
-thii heading
+## Heading for this section
 
-include a figure
+In this section we insert a figure.
 
-![plot](/Users/andrea/Downloads/Picture1.png)
+![Make a plot here](fig_demo.png)
 
