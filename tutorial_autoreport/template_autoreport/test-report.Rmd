@@ -1,0 +1,22 @@
+---
+title: "Test"
+author: "cz"
+date: "4/16/2021"
+output: 
+  word_document:
+    reference_docx: word-styles-ref-01.docx
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Report starts here
+
+## some title
+thii heading
+
+include a figure
+
+![plot](/Users/andrea/Downloads/Picture1.png)
+
