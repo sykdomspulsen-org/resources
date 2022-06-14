@@ -11,6 +11,13 @@ file_rmd <- paste0(file_path, 'report_demo_auto.Rmd')
 file_docx <- paste0(file_path, file_output_name)
 
 
+# render report ----
+rmarkdown::render(
+  input = file_rmd,
+  output_dir = file_path,
+  output_file = file_output_name
+)
+
 
 # figure path ---- # 
 # here it is the same as file path
@@ -72,13 +79,6 @@ tab_1 <- function() {
 
 
 
-
-# render report ----
-rmarkdown::render(
-  input = file_rmd,
-  output_dir = file_path,
-  output_file = file_output_name
-)
 
 
 
