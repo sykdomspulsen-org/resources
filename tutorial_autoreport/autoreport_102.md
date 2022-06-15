@@ -12,7 +12,7 @@ In this minimal example, we make the **date** change to today's date.
 
 You can follow the example as in `autoreport_101`. In this example, we call it `report_demo_auto.Rmd`. This produces a Word report called `report_demo_auto.docx`.
 
-![fig_12](/Users/andrea/Documents/GitHub/resources/tutorial_autoreport/fig_tutorial_autoreport/fig_12.png)
+![fig_12](fig_tutorial_autoreport/fig_12.png)
 
 Make sure that you source the **style file** in the header of `Rmd` file: in the automation process, we do NOT use the style file. 
 
@@ -30,7 +30,7 @@ In this R script `run_autoreport.R`, we try to do the following:
 
 
 
-![fig_9](/Users/andrea/Documents/GitHub/resources/tutorial_autoreport/fig_tutorial_autoreport/fig_9.png)
+![fig_9](fig_tutorial_autoreport/fig_9.png)
 
 # Step 3. Reference R object in `Rmd` report
 
@@ -38,7 +38,7 @@ R objects can be called like this `r R_object`. More advanced uses please refer 
 
 
 
-![fig_8](/Users/andrea/Documents/GitHub/resources/tutorial_autoreport/fig_tutorial_autoreport/fig_8.png)
+![fig_8](fig_tutorial_autoreport/fig_8.png)
 
 # Step 4. Render report in `R`
 
@@ -62,7 +62,7 @@ Check your newly generated `docx` report, it should contain the date "today".
 
 Note that the title is changed too. 
 
-![fig_11](/Users/andrea/Documents/GitHub/resources/tutorial_autoreport/fig_tutorial_autoreport/fig_11.png)
+![fig_11](fig_tutorial_autoreport/fig_11.png)
 
 
 
